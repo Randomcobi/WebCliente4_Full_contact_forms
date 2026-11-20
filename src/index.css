@@ -1,0 +1,66 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #f4f4f8;
+  color: #222;
+}
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.columnas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+form,
+section {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+.campo {
+  margin-bottom: 12px;
+}
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+input:not([type="checkbox"]),
+select {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+input[aria-invalid="true"],
+select[aria-invalid="true"] {
+  border: 2px solid #c00;
+}
+:focus-visible {
+  outline: 3px solid #4a6cf7;
+}
+.error {
+  color: #c00;
+  margin: 4px 0;
+}
+.ok {
+  color: #070;
+}
+.info {
+  color: #666;
+  min-height: 1em;
+}
+.aviso {
+  background: #fff4d6;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.aviso pre {
+  white-space: pre-wrap;
+  font-size: 12px;
+}
+.lista li {
+  margin-bottom: 4px;
+}
