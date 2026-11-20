@@ -1,0 +1,28 @@
+{
+  "jugadores": [
+    {
+      "id": "1",
+      "nick": "LunaRoja",
+      "email": "luna@example.com",
+      "edad": 21,
+      "juego": "Magic: The Gathering",
+      "fechaInscripcion": "2026-11-10T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "nick": "kiwi_99",
+      "email": "kiwi@example.com",
+      "edad": 16,
+      "juego": "Pokémon TCG",
+      "fechaInscripcion": "2026-11-12T17:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "nick": "Corrupto",
+      "email": "esto-no-es-un-email",
+      "edad": "veinte",
+      "juego": "Uno",
+      "fechaInscripcion": "2026-11-13T09:15:00.000Z"
+    }
+  ]
+}
