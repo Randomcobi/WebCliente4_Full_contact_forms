@@ -23,6 +23,14 @@
       "edad": "veinte",
       "juego": "Uno",
       "fechaInscripcion": "2026-11-13T09:15:00.000Z"
+    },
+    {
+      "nick": "chache",
+      "email": "aaa@a.com",
+      "edad": 27,
+      "juego": "Yu-Gi-Oh!",
+      "fechaInscripcion": "2026-11-20T22:44:20.692Z",
+      "id": "sWWOM80"
     }
   ]
 }
